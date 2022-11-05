@@ -2,17 +2,17 @@ package atividadebanco;
 
 public class Juridico {
 	
-	private String cnpj;
+	private double cnpj;
 	
-	public Juridico(String cnpj) {
+	public Juridico(double cnpj) {
 		this.cnpj= cnpj;
 	}
 
-	public String getCnpj() {
+	public double getCnpj() {
 		return cnpj;
 	}
 
-	public void setCnpj(String cnpj) {
+	public void setCnpj(double cnpj) {
 		this.cnpj = cnpj;
 	}
 	

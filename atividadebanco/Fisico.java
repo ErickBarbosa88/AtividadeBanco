@@ -2,17 +2,18 @@ package atividadebanco;
 
 public class Fisico {
 	
-	private String cpf;
+	private double cpf;
+
 	
-	public Fisico(String cpf) {
+	public Fisico(double cpf) {
 		this.cpf = cpf;
 	}
 
-	public String getCpf() {
+	public double getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(String cpf) {
+	public void setCpf(double cpf) {
 		this.cpf = cpf;
 	}
 	
